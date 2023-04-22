@@ -28,7 +28,7 @@ const Blog = () => {
           <meta property="og:image" content={currentBlog?.image} />
         </Helmet>
         <div className="flex flex-col max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold text-center my-10">
+          <h2 className="text-3xl font-bold text-center my-11">
             {currentBlog?.title}
           </h2>
           <img src={currentBlog?.image} alt="blog" className="aspect-video" />
