@@ -7,9 +7,9 @@ function App() {
   return (
     <div className="App">
       <HelmetProvider>
-        <HashRouter basename='/'>
+        <HashRouter basename='/link'>
           <Routes>
-            <Route path="/" element={<AllBlogs />} />
+            <Route path="/link" element={<AllBlogs />} />
             <Route path="/:id" element={<Blog />} />
           </Routes>
         </HashRouter>
