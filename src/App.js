@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <HelmetProvider>
-        <HashRouter basename={process.env.PUBLIC_URL}>
+        <HashRouter basename='/'>
           <Routes>
             <Route path="/" element={<AllBlogs />} />
             <Route path="/:id" element={<Blog />} />
